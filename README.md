@@ -50,7 +50,7 @@ Clone the repository:
 git clone https://github.com/Fronsipswu/qc-combo-dumper.git
 cd qc-combo-dumper
 ```
-Install Pyserial if you do not have it:
+Install pyserial if you do not have it:
 
 ```
 pip install pyserial
@@ -63,7 +63,7 @@ For NR
 ```
 python 0xB826.py
 ```
-You will be asked to manually specify the DIAG port in the terminal. e.g. ```COM8``` on windows or ```/dev/ttyUSB0``` on Linux. From here, just follow the on-screen instructions and the output should be saved in the same directory as the .py script
+You will be asked to manually specify the DIAG port in the terminal. e.g. ```COM8``` on windows or ```/dev/ttyUSB0``` on Linux. From here, just follow the on-screen instructions, and the output should be saved in the same directory as the .py script
 
 # Output
 
