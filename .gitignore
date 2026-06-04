@@ -4,3 +4,4 @@ dist/
 __pycache__/
 *.pyc
 *_COMBINED
+GUI_VER.py

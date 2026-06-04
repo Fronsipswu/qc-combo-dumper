@@ -164,7 +164,7 @@ class ComboCaptureGUI:
                 msg, end_str, replace_last = self.log_queue.get_nowait()
                 self.terminal.configure(state="normal")
                 
-                # Accurately emulate \r behavior in tkinter
+                #\r behavior in tkinter
                 if replace_last:
                     self.terminal.delete("end-2l linestart", "end-1c")
                     self.terminal.insert("end-1c", msg + "\n")
