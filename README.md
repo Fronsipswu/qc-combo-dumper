@@ -1,6 +1,6 @@
 # Qualcomm Hardware CA Combos Dumper
 
-A simple Python-based tool to dump LTE Support CA Combos (0xB0CD) and NR5G Supported CA Combos (0xB826) from any Qualcomm devices via the DIAG port. Since each fragment contains a maximum of 100 Combos, the tool combines multiple fragments into a single output and removes any duplicates before dumping them into your working directory. The resulting hex dump can be parsed with [uecapabilityparser](https://github.com/HandyMenny/uecapabilityparser) to see the LTE/NR CA Combos
+A simple Python-based tool to dump LTE Support CA Combos (0xB0CD) and NR5G Supported CA Combos (0xB826) from any Qualcomm devices via the DIAG port. Since each fragment contains a maximum of 100 Combos, the tool combines multiple fragments into a single output in QCAT format and removes any duplicates before saving them to your working directory. The resulting hex dump can be parsed with [uecapabilityparser](https://github.com/HandyMenny/uecapabilityparser) to see the LTE/NR CA Combos
 
 ---
 
@@ -37,7 +37,7 @@ setprop sys.usb.config diag,adb
 7. Press **Connect**
 8. Turn off airplane mode to receive 0xB0CD or 0xB826 fragments
    - For the 0xB826 capture, it is recommended to toggle between 4G<>5G a few times in case you missed some fragments
-9. Press stop to save and dump hex
+9. Press stop to save the hex dump
 
 The output will be saved as ```0xB0CD_COMBINED``` or ```0xB826_COMBINED``` in wherever the .exe is
 
