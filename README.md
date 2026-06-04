@@ -34,10 +34,10 @@ setprop sys.usb.config diag,adb
 4. Select your DIAG port from the drop-down menu (You can find the COM port in Device Manager)
 5. Select capture mode e.g. LTE (0xB0CD) or NR5G (0xB826)
 6. Enable airplane mode on your Qualcomm device (for now)
-7. Click **Connect**
+7. Press **Connect**
 8. Turn off airplane mode to receive 0xB0CD or 0xB826 fragments
-9. For the 0xB826 capture, it is recommended to toggle between 4G<>5G a few times in case you missed some fragments 
-10. Press stop to save and dump 
+   - For the 0xB826 capture, it is recommended to toggle between 4G<>5G a few times in case you missed some fragments
+9. Press stop to save and dump hex
 
 The output will be saved as ```0xB0CD_COMBINED``` or ```0xB826_COMBINED``` in wherever the .exe is
 
