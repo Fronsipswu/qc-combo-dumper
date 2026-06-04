@@ -90,4 +90,4 @@ The output can be parsed with [uecapabilityparser](https://github.com/HandyMenny
 Select 0xB0CD or 0xB826 log type, then attach the ```0xB0CD_COMBINED``` or ```0xB826_COMBINED``` file before submitting
 
 # Credits
-All core functionalities in this project such as DIAG initialization, HDLC unescaping, and CRC16 handling, were reused/adapted from the [scat](https://github.com/fgsect/scat) repository. Credit goes to the original authors and contributors for their work on DIAG protocol tooling and analysis.
+All core functionalities in this project such as DIAG initialization, HDLC escaping/unescaping, and CRC16 handling, were reused/adapted from the [scat](https://github.com/fgsect/scat) repository. Credit goes to the original authors and contributors for their work on DIAG protocol tooling and analysis.
