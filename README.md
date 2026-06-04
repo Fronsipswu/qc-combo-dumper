@@ -7,8 +7,8 @@ A simple Python-based tool to dump LTE Support CA Combos (0xB0CD) and NR5G Suppo
 ## Supported devices
 
 - Any Qualcomm devices as long as you can open the DIAG port
-- LTE 0xB0CD dump should work on all Qualcomm devices
-- NR5G 0xB826 dump is **not supported** for X80 modems or newer
+- LTE 0xB0CD capture should work on all Qualcomm devices
+- NR5G 0xB826 capture is **not supported** for X80 modems or newer
 
 To enable DIAG on most rooted Androids:
 
