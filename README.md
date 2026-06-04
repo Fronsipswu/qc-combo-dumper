@@ -81,7 +81,7 @@ LTE UE CA Combos Raw: 2964044200...
 LTE UE CA Combos Raw: 2964034200...
 ```
 
-The output can be parsed with [uecapabilityparser](https://github.com/HandyMenny/uecapabilityparser). The community-hosted web versions are also available:
+The output can be parsed with [uecapabilityparser](https://github.com/HandyMenny/uecapabilityparser). Community-hosted web versions are also available:
 - https://uecapability.smartphonecombo.it/parser/
 - https://uecaps.hennes.xyz/parser/
 
