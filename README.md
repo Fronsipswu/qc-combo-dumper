@@ -35,7 +35,7 @@ setprop sys.usb.config diag,adb
 5. Select your DIAG port from the drop-down menu (You can find the COM port in Device manager)
 6. Select capture mode e.g LTE (0xB0CD) or NR5G (0xB826)
 7. Click **Connect** and follow the on-screen instructions
-8. Press stop save and dump 
+8. Press stop to save and dump 
 
 The output will be saved as ```0xB0CD_COMBINED``` or ```0xB826_COMBINED``` in wherever the .exe is
 
