@@ -20,7 +20,7 @@ setprop sys.usb.config diag,adb
 ## PC Requirements
 
 - Qualcomm USB Drivers installed
-- Ensure QXDM, QPST, or other DIAG tools are closed
+- Ensure QXDM, QPST, or anything that occupies the DIAG port is closed
 - [PySerial](https://pypi.org/project/pyserial/) (only required when running .py script directly)
 
 ---
