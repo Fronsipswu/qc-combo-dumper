@@ -38,6 +38,7 @@ setprop sys.usb.config diag,adb
 8. Turn off airplane mode to receive 0xB0CD or 0xB826 fragments
    - For the 0xB826 capture, it is recommended to toggle between 4G<>5G a few times in case you missed some fragments
 9. Press stop to save the hex dump
+   - For the 0xB0CD capture, the program stops automatically 
 
 The output will be saved as ```0xB0CD_COMBINED``` or ```0xB826_COMBINED``` in wherever the .exe is
 
