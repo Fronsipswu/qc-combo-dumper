@@ -31,15 +31,15 @@ setprop sys.usb.config diag,adb
 1. Go to the **Releases** page
 2. Download and run ```qc-combo-dumper.exe``` from the release section
 3. Connect your Qualcomm device to your computer and make sure DIAG is enabled
-4. Select your DIAG port from the drop-down menu
-   - You can find the correct COM port number in Device Manager.
-   - If you choose the wrong COM port, the program will freeze/crash.
-5. Select capture mode e.g. LTE (0xB0CD) or NR5G (0xB826)
-6. Enable airplane mode on your Qualcomm device (for now)
-7. Press **Connect**
-8. Turn off airplane mode to receive 0xB0CD or 0xB826 fragments
+   - You can find the correct DIAG COM port number in Device Manager.
+5. Select your DIAG port from the drop-down menu
+   - If you choose the wrong COM port, the program will freeze.
+6. Select capture mode e.g. LTE (0xB0CD) or NR5G (0xB826)
+7. Enable airplane mode on your Qualcomm device (for now)
+8. Press **Connect**
+9. Turn off airplane mode to receive 0xB0CD or 0xB826 fragments
    - For the 0xB826 capture, it is recommended to toggle between 4G<>5G a few times in case you missed some fragments
-9. Press stop to save the hex dump
+10. Press stop to save the hex dump
    - For the 0xB0CD capture, the program stops automatically 
 
 The output will be saved as ```0xB0CD_COMBINED``` or ```0xB826_COMBINED``` in wherever the .exe is
