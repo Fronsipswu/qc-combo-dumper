@@ -1,6 +1,6 @@
 # Qualcomm Hardware CA Combos Dumper
 
-Probably the easiest way to dump LTE Support CA Combos (0xB0CD) and NR5G Supported CA Combos (0xB826) fragments from any Qualcomm devices via the DIAG port. Since each fragment contains a maximum of 100 Combos, the tool combines multiple fragments into a single output in QCAT format and removes any duplicates before saving them to your working directory. The resulting hex dump can be parsed with [uecapabilityparser](https://github.com/HandyMenny/uecapabilityparser) to see the LTE/NR CA Combos
+An easy method to dump LTE Support CA Combos (0xB0CD) and NR5G Supported CA Combos (0xB826) fragments from any Qualcomm devices via the DIAG port. Since each fragment contains up to 100 Combos, the tool combines multiple fragments into a single file in QCAT format and removes any duplicates before saving them to your working directory. The resulting hex dump can be parsed with [uecapabilityparser](https://github.com/HandyMenny/uecapabilityparser) to see the LTE/NR CA Combos
 
 ---
 
